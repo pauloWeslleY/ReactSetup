@@ -1,7 +1,7 @@
 import React from 'react'
 import Head from 'next/head'
 
-import RocketseatLogo from '../assets/rocketseat.svg'
+import ReactLogo from '../assets/react.svg'
 import { Container } from '../styles/pages/Home'
 
 const Home: React.FC = () => {
@@ -11,9 +11,9 @@ const Home: React.FC = () => {
             <title>Homepage</title>
          </Head>
 
-         <RocketseatLogo />
+         {/* <ReactLogo /> */}
          <h1>ReactJS Structure</h1>
-         <p>a ReactJS + Next.js structure made by Rocketseat.</p>
+         <p>A ReactJS + Next.js structure.</p>
       </Container>
    )
 }
